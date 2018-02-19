@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.igor.exception.iml" filepath="$PROJECT_DIR$/.idea/modules/com.igor.exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.igor.exception_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.igor.exception_main.iml" group="com.igor.exception" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.igor.exception_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.igor.exception_test.iml" group="com.igor.exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" group="kodilla-good-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_main.iml" group="kodilla-good-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_test.iml" group="kodilla-good-patterns" />
     </modules>
   </component>
 </project>

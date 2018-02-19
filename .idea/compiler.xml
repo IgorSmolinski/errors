@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="com.igor.exception_main" target="1.8" />
       <module name="com.igor.exception_test" target="1.8" />
+      <module name="kodilla-good-patterns_main" target="1.8" />
+      <module name="kodilla-good-patterns_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

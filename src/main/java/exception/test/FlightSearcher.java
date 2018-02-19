@@ -6,6 +6,7 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 public class FlightSearcher {
 
@@ -19,9 +20,11 @@ public class FlightSearcher {
         tempMap.put("Wroclaw", false);
 
         long check = tempMap.keySet().stream()
-                .filter(a -> a.equals(flight.arrivalAirport))
+                .filter((String a) -> a.equals(flight.arrivalAirport))   //ctrl+q
                 .count();
 
+//        Optional.ofNullable(tempMap.get(flight.arrivalAirport)).orElseThrow(() -> new  RouteNotFoundException("Can't"));
+//
         if (check == 1) {
             System.out.println("You can fly to :" + flight.arrivalAirport);
         }
