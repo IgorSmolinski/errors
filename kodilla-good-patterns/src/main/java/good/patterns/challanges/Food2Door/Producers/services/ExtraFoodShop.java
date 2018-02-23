@@ -24,7 +24,8 @@ public class ExtraFoodShop implements OrderServices {
 
 
      public void info(){
-
+            System.out.println(name);
+            System.out.println(description);
          }
 
 

@@ -1,4 +1,6 @@
-package good.patterns.challanges.OrderingTask;
+package good.patterns.challanges.OrderingTask.model;
+
+import good.patterns.challanges.OrderingTask.model.User;
 
 import java.time.LocalDate;
 

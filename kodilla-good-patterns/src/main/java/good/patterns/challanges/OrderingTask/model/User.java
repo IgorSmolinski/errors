@@ -1,4 +1,4 @@
-package good.patterns.challanges.OrderingTask;
+package good.patterns.challanges.OrderingTask.model;
 
 public class User {
     String name, surname, login;

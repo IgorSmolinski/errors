@@ -1,9 +1,11 @@
 package good.patterns.challanges.OrderingTask;
 
+import good.patterns.challanges.OrderingTask.model.User;
+
 public class MailNotification implements SendingNotification {
 
     @Override
     public void send(User user){
-        System.out.println("User login: " + user.login + " Your order was made");
+        System.out.println("User login: " + user.getLogin() + " Your order was made");
     };
 }

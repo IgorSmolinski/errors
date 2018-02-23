@@ -1,6 +1,8 @@
 package good.patterns.challanges.OrderingTask;
 
 
+import good.patterns.challanges.OrderingTask.model.OrderRequest;
+import good.patterns.challanges.OrderingTask.repository.DataRetriver;
 
 public class Application {
 

@@ -1,5 +1,7 @@
 package good.patterns.challanges.OrderingTask;
 
+import good.patterns.challanges.OrderingTask.model.OrderRequest;
+
 public class ProductOrderService {
 
     private SendingNotification sendingNotification;

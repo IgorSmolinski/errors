@@ -22,7 +22,7 @@ public class OrderProcessingService {
 
         } else {
             System.out.println("There is not enough products in stock.\nOnly "
-                    + order.getValue() + "  available products are in Stock");
+                    + productRepository.getQuantity(order.getManufactor(), order.getProduct()) + "  available products are in Stock");
             return new PossibleOrderDto(order, false);
         }
     }

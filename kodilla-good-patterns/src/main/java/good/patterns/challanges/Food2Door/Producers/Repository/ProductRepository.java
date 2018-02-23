@@ -37,7 +37,7 @@ public class ProductRepository {
 
     public void show(Shops name){
         tempmap.entrySet().stream()
-        .filter(a->a.getKey().equals(name.name()))
+                .map(a->a.getKey())  //Jak rozdzielić Enum od klucza, żeby można było filtrować listę?
                 .forEach(System.out::println);
     }
 }
