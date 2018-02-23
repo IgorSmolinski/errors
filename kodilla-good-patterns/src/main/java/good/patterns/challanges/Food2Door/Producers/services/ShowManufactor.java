@@ -1,18 +1,21 @@
 package good.patterns.challanges.Food2Door.Producers.services;
 
-import good.patterns.challanges.Food2Door.Producers.model.OrderServices;
+import good.patterns.challanges.Food2Door.Producers.Repository.ProductRepository;
+import good.patterns.challanges.Food2Door.Producers.model.Shops;
+import good.patterns.challanges.OrderingTask.OrderService;
 
 public class ShowManufactor{
 
-    private OrderServices producer;
+    private final Shops shop;
 
 
-    public ShowManufactor(OrderServices producer) {
-        this.producer = producer;
+    public ShowManufactor(Shops shop) {
+        this.shop=shop;
     }
 
-    public void showing() {
-                producer.info();
+    public void show(){
+        System.out.println(shop.name());
+
 
     }
 }

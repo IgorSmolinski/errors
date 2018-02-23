@@ -1,6 +1,6 @@
 package good.patterns.challanges.Food2Door.Producers.services;
 
-public class SendEmail implements Notification {
+public class SendEmail implements NotificationService {
 
     public void send(){
 
