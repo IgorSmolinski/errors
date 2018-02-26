@@ -4,6 +4,7 @@ import good.patterns.challanges.airportcase.model.Airport;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Objects;
 
 
 public class SearchingTransfer {
@@ -15,6 +16,8 @@ public class SearchingTransfer {
         this.airport = airport;
     }
 
+
+
     public Collection<String> transferProcess(){
         Collection<String> departureList=airport.getConnectionList().get(airport.getDepartureAirport());
         Collection<String> arrivalList=airport.getConnectionList().get(airport.getArrivalAirport());
@@ -22,13 +25,21 @@ public class SearchingTransfer {
     ArrayList<String> transferList = new ArrayList<>(arrivalList);
     transferList.retainAll(departureList);
 
-        /*Collection<String> transferFlight = airport.getConnectionList()
-            .entrySet().stream()
-            .filter(a->a.getKey().equals(airport.getArrivalAirport()))
-            .map(a->a.getValue()
-            .map(a->a.retainAll(departureList))
+    /*
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 
-        return transferFlight; */
+          airport.getConnectionList()
+         .entrySet().stream()
+               .filter(a->a.getKey().equals(airport.getArrivalAirport()))
+                .map(a->a.getValue())
+                  //.forEach(System.out::println);   //sprawdzanie co jest na liście
+                .filter(a->a.equals(airport.getConnectionList()
+                  //     .entrySet().stream()
+                    //    .filter(b->b.getKey().equals(airport.getDepartureAirport()))
+                      //  .map(b->b.getValue()))).toArray();
+
+
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");*/
 
         return transferList;
     }

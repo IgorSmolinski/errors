@@ -7,6 +7,7 @@ import good.patterns.challanges.airportcase.services.SearchingTransfer;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Objects;
 
 public class Airport {
 
@@ -30,6 +31,21 @@ public class Airport {
 
     public HashMap<String, ArrayList<String>> getConnectionList() {
         return connectionList;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Airport)) return false;
+        Airport airport = (Airport) o;
+        return Objects.equals(arrivalAirport, airport.arrivalAirport) &&
+                Objects.equals(departureAirport, airport.departureAirport);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(arrivalAirport, departureAirport);
     }
 
     public void process(){
