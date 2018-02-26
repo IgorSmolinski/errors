@@ -10,7 +10,7 @@ public class ShowManufactor{
 
 
     public ShowManufactor(Order order) {
-        this.order= order
+        this.order= order;
     }
 
     public void show(){

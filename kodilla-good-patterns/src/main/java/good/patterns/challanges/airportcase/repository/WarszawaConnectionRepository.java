@@ -1,18 +1,24 @@
 package good.patterns.challanges.airportcase.repository;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
+
 
 public class WarszawaConnectionRepository {
 
-    private final List<String> warszawaList = new ArrayList<>();
+    private final ArrayList<String> warszawaList = new ArrayList<>();
 
     public WarszawaConnectionRepository() {
-        warszawaList.add("Wrocław");
         warszawaList.add("Gdynia");
         warszawaList.add("Helsinki");
         warszawaList.add("Berlin");
         warszawaList.add("Vienna");
+        warszawaList.add("Frankfurt");
+        warszawaList.add("Cambridge");
 
+    }
+
+    public ArrayList<String> getWarszawaList() {
+        return warszawaList;
     }
 }
