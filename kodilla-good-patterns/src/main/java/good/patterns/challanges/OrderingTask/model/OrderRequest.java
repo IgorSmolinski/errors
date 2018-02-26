@@ -5,8 +5,8 @@ import good.patterns.challanges.OrderingTask.model.User;
 import java.time.LocalDate;
 
 public class OrderRequest {
-    User user;
-    LocalDate orderDate;
+    private final User user;
+    private final LocalDate orderDate;
 
     public OrderRequest(User user, LocalDate orderDate) {
         this.user = user;

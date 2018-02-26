@@ -1,7 +1,7 @@
 package good.patterns.challanges.OrderingTask.model;
 
 public class User {
-    String name, surname, login;
+    private final String name, surname, login;
 
     public User(String name, String surname, String login) {
         this.name = name;

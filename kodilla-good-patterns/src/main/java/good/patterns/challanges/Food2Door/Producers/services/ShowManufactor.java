@@ -1,18 +1,20 @@
 package good.patterns.challanges.Food2Door.Producers.services;
 
 
+import good.patterns.challanges.Food2Door.Producers.model.Order;
+
 public class ShowManufactor{
 
 
-    private final OrderProcessingService orderProcessingService;
+    private final Order order;
 
 
-    public ShowManufactor(OrderProcessingService orderProcessingService) {
-        this.orderProcessingService=orderProcessingService;
+    public ShowManufactor(Order order) {
+        this.order= order
     }
 
     public void show(){
-        System.out.println();
+        System.out.println(order.getManufactor());
 
 
     }
