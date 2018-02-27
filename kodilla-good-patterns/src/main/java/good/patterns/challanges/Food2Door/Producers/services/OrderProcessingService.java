@@ -2,6 +2,7 @@ package good.patterns.challanges.Food2Door.Producers.services;
 
 import good.patterns.challanges.Food2Door.Producers.Repository.ProductRepository;
 import good.patterns.challanges.Food2Door.Producers.model.Order;
+import good.patterns.challanges.Food2Door.Producers.model.PossibleOrderDto;
 
 
 public class OrderProcessingService {

@@ -1,4 +1,4 @@
-package good.patterns.challanges.airportcase.services;
+package good.patterns.challanges.airportcase.model;
 
 import java.util.Objects;
 

@@ -1,6 +1,5 @@
 package good.patterns.challanges.airportcase.model;
 
-import good.patterns.challanges.airportcase.services.DirectConnectionDto;
 import good.patterns.challanges.airportcase.services.SearchingConnection;
 import good.patterns.challanges.airportcase.services.SearchingTransfer;
 

@@ -1,9 +1,7 @@
 package good.patterns.challanges.airportcase.services;
 
 import good.patterns.challanges.airportcase.model.Airport;
-
-import java.util.ArrayList;
-import java.util.HashMap;
+import good.patterns.challanges.airportcase.model.DirectConnectionDto;
 
 public class SearchingConnection {
 

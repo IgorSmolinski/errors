@@ -1,9 +1,7 @@
 package good.patterns.challanges.Food2Door.Producers.services;
 
-import good.patterns.challanges.Food2Door.Producers.Repository.ProductRepository;
 import good.patterns.challanges.Food2Door.Producers.model.Order;
-
-import java.util.Map;
+import good.patterns.challanges.Food2Door.Producers.model.PossibleOrderDto;
 
 public class HealthyShop implements OrderServices {
     private static final String name = "Healthy Shop";
