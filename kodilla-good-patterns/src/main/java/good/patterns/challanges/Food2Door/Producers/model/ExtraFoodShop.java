@@ -1,7 +1,9 @@
-package good.patterns.challanges.Food2Door.Producers.services;
+package good.patterns.challanges.Food2Door.Producers.model;
 
 import good.patterns.challanges.Food2Door.Producers.model.Order;
 import good.patterns.challanges.Food2Door.Producers.model.PossibleOrderDto;
+import good.patterns.challanges.Food2Door.Producers.services.OrderProcessingService;
+import good.patterns.challanges.Food2Door.Producers.services.OrderServices;
 
 
 public class ExtraFoodShop implements OrderServices {

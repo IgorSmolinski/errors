@@ -1,4 +1,4 @@
-package good.patterns.challanges.OrderingTask.services;
+package good.patterns.challanges.OrderingTask.repository;
 
 import good.patterns.challanges.OrderingTask.model.OrderRequest;
 

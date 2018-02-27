@@ -3,6 +3,8 @@ package good.patterns.challanges.OrderingTask;
 
 import good.patterns.challanges.OrderingTask.model.OrderRequest;
 import good.patterns.challanges.OrderingTask.repository.DataRetriver;
+import good.patterns.challanges.OrderingTask.repository.OrderBookRepository;
+import good.patterns.challanges.OrderingTask.repository.OrderShoesRepository;
 import good.patterns.challanges.OrderingTask.services.*;
 
 public class Application {

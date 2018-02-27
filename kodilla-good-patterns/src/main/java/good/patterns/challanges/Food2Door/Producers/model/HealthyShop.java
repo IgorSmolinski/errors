@@ -1,14 +1,16 @@
-package good.patterns.challanges.Food2Door.Producers.services;
+package good.patterns.challanges.Food2Door.Producers.model;
 
 import good.patterns.challanges.Food2Door.Producers.model.Order;
 import good.patterns.challanges.Food2Door.Producers.model.PossibleOrderDto;
+import good.patterns.challanges.Food2Door.Producers.services.OrderProcessingService;
+import good.patterns.challanges.Food2Door.Producers.services.OrderServices;
 
-public class GlutenFreeShop implements OrderServices {
-    private static String name = "Gluten Free Shop";
-    private static String description = "Gluten Free Products";
+public class HealthyShop implements OrderServices {
+    private static final String name = "Healthy Shop";
+    private static final String description ="Buying from Us make more Healthy.";
     private final OrderProcessingService orderProcessingService;
 
-    public GlutenFreeShop(OrderProcessingService orderProcessingService) {
+    public HealthyShop(OrderProcessingService orderProcessingService) {
         this.orderProcessingService = orderProcessingService;
     }
 
@@ -17,13 +19,18 @@ public class GlutenFreeShop implements OrderServices {
 
         if (temp.isPossible()) {
             orderProcessingService.processOrder(order);
+
         } else
-            System.out.println("Order cannot be accepted.");
+            System.out.println("Come on. You can do it better!");
     }
 
-    public void info() {
+    public void info(){
         System.out.println(name);
         System.out.println(description);
 
+
+
+
     }
 }
+
