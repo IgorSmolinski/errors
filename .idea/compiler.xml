@@ -6,6 +6,12 @@
       <module name="com.igor.exception_test" target="1.8" />
       <module name="kodilla-good-patterns_main" target="1.8" />
       <module name="kodilla-good-patterns_test" target="1.8" />
+      <module name="kodilla-spring-intro_main" target="1.8" />
+      <module name="kodilla-spring-intro_test" target="1.8" />
+      <module name="kodilla-spring_main" target="1.8" />
+      <module name="kodilla-spring_test" target="1.8" />
+      <module name="spring-intro_main" target="1.8" />
+      <module name="spring-intro_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
