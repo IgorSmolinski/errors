@@ -1,6 +1,6 @@
 package good.patterns.challanges.Food2Door.Producers;
 
-import good.patterns.challanges.Food2Door.Producers.Repository.ProductRepository;
+import good.patterns.challanges.Food2Door.Producers.repository.ProductRepository;
 import good.patterns.challanges.Food2Door.Producers.model.*;
 import good.patterns.challanges.Food2Door.Producers.services.*;
 

@@ -1,4 +1,4 @@
-package good.patterns.challanges.Food2Door.Producers.Repository;
+package good.patterns.challanges.Food2Door.Producers.repository;
 
 
 import good.patterns.challanges.Food2Door.Producers.model.Shops;
