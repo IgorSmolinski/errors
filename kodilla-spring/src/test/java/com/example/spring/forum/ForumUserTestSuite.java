@@ -1,6 +1,6 @@
 package com.example.spring.forum;
 
-import com.example.spring.forum.ForumUser;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
