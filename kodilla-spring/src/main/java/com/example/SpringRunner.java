@@ -10,6 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(com.example.kodillaspring.SpringRunner.class, args);
+        SpringApplication.run(com.example.SpringRunner.class, args);
     }
 }

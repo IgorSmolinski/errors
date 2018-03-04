@@ -1,9 +1,6 @@
 package com.example.kodillaspring;
 
-
-import com.example.spring.shape.Circle;
 import com.example.spring.shape.Shape;
-import com.example.spring.shape.Triangle;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +17,7 @@ public class SpringRunnerTests {
 		//Given
 		ApplicationContext context =
 				new AnnotationConfigApplicationContext("com.example");
-		Shape shape = context.getBean(Circle.class);
+		Shape shape = (Shape)context.getBean("circle");
 		//When
 		String name = shape.getShapeName();
 		//Then
@@ -32,10 +29,34 @@ public class SpringRunnerTests {
 		//Given
 		ApplicationContext context =
 				new AnnotationConfigApplicationContext("com.example");
-		Shape shape = context.getBean(Triangle.class);
+		Shape shape = (Shape)context.getBean("triangle");
 		//When
 		String name = shape.getShapeName();
 		//Then
-		Assert.assertEquals("This triangle which implement Shape", name);
+		Assert.assertEquals("This triangle which implements Shape", name);
+	}
+
+	@Test
+	public void testSquareLoadedIntoContainer() {
+		//Given
+		ApplicationContext context =
+				new AnnotationConfigApplicationContext("com.example");
+		Shape shape = (Shape)context.getBean("createSquare");
+		//When
+		String name = shape.getShapeName();
+		//Then
+		Assert.assertEquals("This is square which implements interface Shape.", name);
+	}
+
+	@Test
+	public void testShapeLoadedIntoContainer() {
+		//Given
+		ApplicationContext context =
+				new AnnotationConfigApplicationContext("com.example");
+		Shape shape = (Shape)context.getBean("choosenShape");
+		//When
+		String name = shape.getShapeName();
+		//Then
+		System.out.println("Choosen shape says: " + name);
 	}
 }
