@@ -19,8 +19,6 @@ public class Board {
         this.doneList=doneList;
     }
 
-
-
     public void readFromDb(TaskList temp){
         temp.tasks.stream()
                 .forEach(System.out::println);
