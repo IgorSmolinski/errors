@@ -7,7 +7,6 @@
     <list default="true" id="72f42a2d-cba1-4bcf-8338-0693412b36f1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules/spring-intro/spring-intro_main.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/spring-intro/spring-intro_test.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/good/patterns/challanges/Application.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/good/patterns/challanges/BookOrder.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/out/production/classes/good/patterns/challanges/DataRetriver.class" afterPath="" />
@@ -77,6 +76,9 @@
       <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/good/patterns/challanges/ShoesOrder.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/good/patterns/challanges/User.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/kodilla-spring/out/production/classes/com/example/kodillaspring/SpringRunner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/Board.java" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/Board.java" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/TaskList.java" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/TaskList.java" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/portfolio/BoardTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/portfolio/BoardTestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -155,11 +157,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="TaskList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/TaskList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/BoardConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardTestSuite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/portfolio/BoardTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -1736,7 +1774,6 @@
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/library/LibraryDbController.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/calculator/Display.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/calculator/CalculatorTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/library/Library.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/library/LibraryConfig.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/library/LibraryTestSuite.java" />
@@ -1745,8 +1782,9 @@
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/reader/IfDayIsOddCondition.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/reader/ReaderConfig.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/reader/ReaderTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/TaskList.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/BoardConfig.java" />
+        <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/calculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/TaskList.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/Board.java" />
         <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/portfolio/BoardTestSuite.java" />
       </list>
@@ -1764,7 +1802,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="46" />
     <option name="width" value="1260" />
@@ -1793,6 +1831,118 @@
             <path>
               <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.igor.exception" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.igor.exception" type="b2602c69:ProjectViewProjectNode" />
@@ -1848,7 +1998,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KodillaSpringWebApplication">
+  <component name="RunManager" selected="JUnit.BoardTestSuite">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -2120,7 +2270,7 @@
       <workItem from="1519728977014" duration="8180000" />
       <workItem from="1519807089061" duration="13012000" />
       <workItem from="1520180501691" duration="38000" />
-      <workItem from="1520180693892" duration="31007000" />
+      <workItem from="1520180693892" duration="32139000" />
     </task>
     <servers />
   </component>
@@ -2157,10 +2307,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198101000" />
+    <option name="totallyTimeSpent" value="199233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="46" width="1282" height="777" extended-state="7" />
+    <frame x="10" y="46" width="1282" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2488,17 +2638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#226#227#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/kodillaspring/SpringRunnerTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -2629,54 +2768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#219#220#0" expanded="false" />
-            <element signature="e#265#266#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/BoardConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#441#442#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/portfolio/BoardTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-spring-web/src/main/java/com/example/kodillaspringweb/KodillaSpringWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2689,6 +2780,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="28" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/BoardConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/example/spring/portfolio/TaskList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/example/spring/portfolio/BoardTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding />
         </state>
       </provider>

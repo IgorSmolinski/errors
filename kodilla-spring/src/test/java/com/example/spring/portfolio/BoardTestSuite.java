@@ -18,11 +18,11 @@ public class BoardTestSuite {
         //Given
         ApplicationContext context = new AnnotationConfigApplicationContext("com.example");
         Board board = context.getBean(Board.class);
-        board.toDoList.tasks.add("Something");
+        board.getToDoList().tasks.add("Something");
         //When
-        String result = board.toDoList.tasks.get(0);
+        String result = board.getToDoList().tasks.get(0);
         //Then
-        board.readFromDb(board.toDoList);
+        board.readFromDb(board.getToDoList());
         Assert.assertEquals("Something", result);
     }
 
@@ -31,11 +31,11 @@ public class BoardTestSuite {
         //Given
         ApplicationContext context = new AnnotationConfigApplicationContext("com.example");
         Board board = context.getBean(Board.class);
-        board.inProgressList.tasks.add("Nothing");
+        board.getInProgressList().tasks.add("Nothing");
         //When
-        String result = board.inProgressList.tasks.get(0);
+        String result = board.getInProgressList().tasks.get(0);
         //Then
-        board.readFromDb(board.inProgressList);
+        board.readFromDb(board.getInProgressList());
         Assert.assertEquals("Nothing", result);
     }
 
@@ -44,11 +44,11 @@ public class BoardTestSuite {
         //Given
         ApplicationContext context = new AnnotationConfigApplicationContext("com.example");
         Board board = context.getBean(Board.class);
-        board.doneList.tasks.add("1234567890");
+        board.getDoneList().tasks.add("1234567890");
         //When
-        String result = board.doneList.tasks.get(0);
+        String result = board.getDoneList().tasks.get(0);
         //Then
-        board.readFromDb(board.doneList);
+        board.readFromDb(board.getDoneList());
         Assert.assertEquals("1234567890", result);
     }
 }
